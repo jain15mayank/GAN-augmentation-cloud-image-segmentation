@@ -4,7 +4,7 @@ With the spirit of reproducible research, this repository contains all the codes
 
 > Jain, M., Meegan, C. and Dev, S.(2021). Using GANs to Augment Data for Cloud Image Segmentation Task. In: IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2021
 
-The description of each of the code files is as follows:
+As explained in the manuscript, the [SWINSEG dataset](http://vintage.winklerbros.net/swinseg.html) is used to carry out the experiments. The description of each of the code files is as follows:
 
 - `GAN.py`: Reads the sky/cloud images, trains a GAN and then use it to generate the new images
 - `clustering.py`: Contains the code to perform sky/cloud image segmentation using k-Means clustering (unsupervised)
